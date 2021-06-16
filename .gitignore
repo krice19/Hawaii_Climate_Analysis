@@ -1,8 +1,5 @@
 # files to ignore
 
-Dec_Summary_Stats.png
-June_Summary_Stats.png
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
