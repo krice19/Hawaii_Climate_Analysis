@@ -15,12 +15,11 @@ This analysis provides information on temperature trends in Oahu, Hawaii.  The t
 
 ### Recommendations 
 
-Based off the summary statistics, I would advice that the Surf and Ice cream shop is a good business venture for the investors, but to continue with further analysis. The below queries could be used to evalute the precipitation in the months of June and December.  While temperature is important, rainfall could also affect ice cream and surf sales, as people are less likely to come surfing in rainy weather.  We can use these queries to determine is there is a rainy season that would affect sales. 
-<br />
+Based off the summary statistics, I would advice that the Surf and Ice cream shop is a good business venture for the investors, but to continue with further analysis. The below queries could be used to evalute the precipitation in the months of June and December.  While temperature is important, rainfall could also affect ice cream and surf sales, as people are less likely to come surfing in rainy weather.  We can use these queries to determine is there is a rainy season that would affect sales:
+```
 session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==6)
-<br />
 session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==12)
-<br />
+```
 
 ### Built With
 
