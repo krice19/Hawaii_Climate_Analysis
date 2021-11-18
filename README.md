@@ -6,8 +6,8 @@ This analysis provides information on temperature trends in Oahu, Hawaii.  The t
 ### Results
 
 <br />
-![June_Summary_Stats](Images/June_Summary_Stats.png)
-![Dec_Summary_Stats](Images/Dec_Summary_Stats.png)
+![June_Summary_Stats](/Images/June_Summary_Stats.png)
+![Dec_Summary_Stats](/Images/Dec_Summary_Stats.png)
 <br />
 - The summary stats for December temperatures are slightly lower than the June stats.  
 - In the dataset evaluated, June has a max temperaute of 85 degrees, an average of about 75 degrees, and a min of 64 degrees.  
